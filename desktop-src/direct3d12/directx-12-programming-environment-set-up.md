@@ -35,10 +35,10 @@ The following headers and libraries are available. The location of the static li
 
 | Header or library file name | Description                         | Install location      |
 |-----------------------------|-------------------------------------|-----------------------|
-| D3d12.h                     | Direct3D 12 API header              | %WindowsSdkDir\\Include\%WindowsSDKVersion%\\\um |
-| D3d12.lib                   | Static Direct3D 12 API stub library | %WindowsSdkDir\\Lib\%WindowsSDKVersion%\\\um\arch |
+| D3d12.h                     | Direct3D 12 API header              | %WindowsSdkDir%Include\\%WindowsSDKVersion%um |
+| D3d12.lib                   | Static Direct3D 12 API stub library | %WindowsSdkDir%Lib\\%WindowsSDKVersion%um\arch |
 | D3d12.dll                   | Dynamic Direct3D 12 API library     | %WINDIR%\\System32    |
-| D3d12SDKLayers.h            | Direct3D 12 debug header            | %WindowsSdkDir\\Include\%WindowsSDKVersion%\\\um |
+| D3d12SDKLayers.h            | Direct3D 12 debug header            | %WindowsSdkDir%Include\\%WindowsSDKVersion%um |
 | D3d12SDKLayers.dll          | Dynamic Direct3D 12 debug library   | %WINDIR%\\System32    |
 
 
